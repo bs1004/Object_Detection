@@ -108,6 +108,8 @@ def inference_detector(model, imgs):
         imgs = [imgs]
         is_batch = False
 
+
+
     cfg = model.cfg
     device = next(model.parameters()).device  # model device
 
